@@ -1,0 +1,48 @@
+#productos {background-color: rgb(89, 89, 160); color: #FFF8E8; text-align: center;}
+
+#productos h2 {color: #DEE8CE; padding-bottom: 20px; margin: 0; font-size: 2.0em;}
+
+#productos .container {padding: 100px 0px;}
+
+#productos p {display: none;}
+
+
+
+#productos .cart {
+
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 40px;
+    border-radius: 10px;
+    font-size: 1.3em;
+
+}
+
+.cart:first-child{
+
+    background-image: url("/src/componentes/imgagenes/3.jpg");
+}
+
+
+.cart:nth-child(2){
+
+    background-image: url("/src/componentes/imgagenes/2.jpg");
+}
+
+.cart:nth-child(3){
+
+    background-image: url("/src/componentes/imgagenes/4.jpg");
+}
+
+#Beneficios .container {
+
+    margin: 200px auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}

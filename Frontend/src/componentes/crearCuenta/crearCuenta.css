@@ -1,0 +1,76 @@
+/* Contenedor principal del formulario */
+#FormularioCrear {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #BB6653;
+    margin: 60px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: none;
+    padding: 50px;
+    color: #FFF8E8;
+    box-shadow: 0px 4px 10px rgba(75, 75, 75, 0.3);
+}
+
+
+/* Botón crear cuenta */
+#FormularioCrear #crear {
+
+    background-color: #FFF8E8;
+    color: #BB6653;
+    padding: 7px 12px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 8px;
+}
+
+#FormularioCrear #crear:hover {
+
+    background-color: #BB6653;
+    color: #FFF8E8;
+    border: solid #FFF8E8 0.5px;
+}
+
+
+/* Inputs del formulario */
+#FormularioCrear input,
+#FormularioCrear select {
+
+    background-color: #BB6653;
+    border-bottom: solid #FFF8E8 0.5px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 3px;
+    margin-top: 5px;
+    color: #FFF8E8;
+    padding: 6px;
+    width: 40%;
+}
+
+/* Opciones blancas dentro del select */
+#FormularioCrear select option {
+    background-color: #FFF8E8;
+    color: #BB6653;
+}
+
+#FormularioCrear input {
+    background-color: #FFF8E8;  
+    color: #BB6653;
+}
+
+
+
+/* Responsive */
+@media (min-width: 720px) {
+
+    #FormularioCrear {
+        max-width: 600px;
+        margin: auto;
+        margin-top: 30px;
+    }
+}

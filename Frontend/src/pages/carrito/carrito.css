@@ -1,0 +1,15 @@
+.boleta {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.boleta ul {
+  padding-left: 20px;
+}
+
+.boleta h2 {
+  margin-bottom: 10px;
+}
