@@ -1,0 +1,42 @@
+
+{
+
+    "productos": 
+    [
+        {
+            "id": 1,
+            "nombre": "Mouse inalámbrico",
+            "descripción": "Mouse ergonómico con conección bluetooth",
+            "precio": 15990
+        },
+
+        {
+            "id": 2,
+            "nombre": "Teclado mecánico RGB",
+            "descripción": "Teclado con retroiluminación RGB",
+            "precio": 21450
+        },
+
+        {
+            "id": 3,
+            "nombre": "Hub USB-C",
+            "descripción": "Adaptador USB-C con HDMI",
+            "precio": 6780
+        },
+
+        {
+            "id": 4,
+            "nombre": "Auriculares bluetooth",
+            "descripción": "Auriculares con cancelación de ruido",
+            "precio": 12000
+        },
+
+        {
+            "id": 5,
+            "nombre": "Soporte para laptop",
+            "descripción": "Sporte ajustable de aluminio",
+            "precio": 9780
+        }
+    ]
+
+}
