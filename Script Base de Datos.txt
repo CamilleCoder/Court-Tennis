@@ -1,0 +1,22 @@
+use base;
+
+
+insert into categoria(id, nombre) values (1, "Raquetas");
+insert into categoria(id, nombre) values (2, "Pelotas");
+insert into categoria(id, nombre) values (3, "Ropa Deportiva");
+
+insert into producto(nombre, descripcion, precio, activo, img ,categoria_id) values ("Raqueta Babolat Pure Aero", "Aro 100", 200000, true, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrBr4t24FA1zTaTLe_qgy_uEnoPG9jkN32tg&s",1);
+insert into producto(nombre, descripcion, precio, activo, img,categoria_id) values ("Tarro pelotas", "Arcilla", 8500, true, "https://www.ebest.cl/media/catalog/product/cache/336bfee9e59a64103d1f594806f63945/p/a/pack_pelotas_tenis_wilson.jpg",2);
+insert into producto(nombre, descripcion, precio, activo, img,categoria_id) values ("Zapatillas Yonex", "Arcilla talla 41", 45000, true, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ3rhcYSTjwwWmlYhLOn5oZ44LkvOozdsORA&s",3);
+
+
+
+
+
+insert into categoriaU(id, nombre) values (1, "Administrador");
+insert into categoriaU(id, nombre) values (2, "Cliente");
+
+insert into usuario(nombre, apellido, email, activo, categoriaU_id) values ("Camilo", "Poblete", "camilo@court.cl", true, 1);
+insert into usuario(nombre, apellido, email, activo, categoriaU_id) values ("Danae", "Miranda", "danae@cliente.cl", true, 2);
+
+
